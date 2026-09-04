@@ -5,6 +5,9 @@ body {
 .container {
   max-with: 600px;
   margin: 0 auto;
+  background: white;
+  padding: 30px;
+  margin: 60px 0;
 }
 
 h1 {
