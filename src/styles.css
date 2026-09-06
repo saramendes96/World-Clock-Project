@@ -17,6 +17,11 @@ body {
  justify-content: space-between;
 }
 
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+
 .time {
 font-size: 36px;
 font-weight: bold;
