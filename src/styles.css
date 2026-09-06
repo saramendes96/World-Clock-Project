@@ -5,7 +5,6 @@ body {
 
 .container {
   max-with: 600px;
-  margin: 0 auto;
   background: white;
   padding: 30px;
   box-shadow: 10px 10px 5px rgba (0,0,0,0.5);
