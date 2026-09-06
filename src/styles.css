@@ -21,6 +21,11 @@ font-size: 36px;
 font-weight: bold;
 }
 
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
 select {
   display: block;
   width: 100%;
