@@ -12,5 +12,5 @@ let parisDateElement = parisElement.querySelector (".date");
 let parisTimeElement = parisElement.querySelector (".time");
 let parisTime = moment().tz("Europe/Paris");
 
-losAngelesDateElement.innerHTML = losAngelesTime.format ("MMMM Do YYYY");
-losAngelesTimeElement.innerHTML = losAngelesTime.format ("h:mm:ss [<small>]A [<small>]");
+parisDateElement.innerHTML = parisTime.format ("MMMM Do YYYY");
+parisTimeElement.innerHTML = parisTime.format ("h:mm:ss [<small>]A [<small>]");
