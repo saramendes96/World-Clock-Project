@@ -8,7 +8,7 @@ losAngelesTimeElement.innerHTML = losAngelesTime.format ("h:mm:ss [<small>]A [<s
 
 
 let parisElement = document.querySelector("#paris");
-let losAngelesDateElement = losAngelesElement.querySelector (".date");
+let parisDateElement = parisElement.querySelector (".date");
 let losAngelesTimeElement = losAngelesElement.querySelector (".time");
 let losAngelesTime = moment().tz("America/Los Angeles");
 
