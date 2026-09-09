@@ -17,3 +17,5 @@ parisDateElement.innerHTML = parisTime.format ("MMMM Do YYYY");
 parisTimeElement.innerHTML = parisTime.format ("h:mm:ss [<small>]A [<small>]");
 
 }
+
+updateTime();
