@@ -20,6 +20,7 @@ parisTimeElement.innerHTML = parisTime.format("h:mm:ss [<small>]A[</small>]");
 
 function updateCity(event) {
 let cityTimeZone = event.target.value;
+let cityName = cityTimeZone.replace ("_", "").split("/")[1];
 }
 
 
