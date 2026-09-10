@@ -18,6 +18,11 @@ parisTimeElement.innerHTML = parisTime.format("h:mm:ss [<small>]A[</small>]");
 
 }
 
+function updateCity(event) {
+
+}
+
+
 updateTime();
 setInterval(updateTime, 1000);
 
