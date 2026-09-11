@@ -35,5 +35,4 @@ function updateCity(event) {
   updateTime();
 }
 
-updateTime();
 setInterval(updateTime, 1000);
