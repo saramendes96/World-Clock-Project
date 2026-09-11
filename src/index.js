@@ -1,6 +1,5 @@
 function updateTime() {
-    let cityElement = document.querySelector(".city");
-  
+    
   let losAngelesElement = document.querySelector("#los-angeles");
   let losAngelesDateElement = losAngelesElement.querySelector(".date");
   let losAngelesTimeElement = losAngelesElement.querySelector(".time");
