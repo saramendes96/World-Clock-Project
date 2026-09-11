@@ -1,5 +1,9 @@
 function updateTime() {
-    
+
+  let cityElement = document.querySelector(".city");
+
+if (cityElement.dataset.timezone) {
+
   let losAngelesElement = document.querySelector("#los-angeles");
   let losAngelesDateElement = losAngelesElement.querySelector(".date");
   let losAngelesTimeElement = losAngelesElement.querySelector(".time");
@@ -10,6 +14,8 @@ function updateTime() {
     "h:mm:ss [<small>]A[</small>]"
   );
 
+  } else {
+      
   let parisElement = document.querySelector("#paris");
   let parisDateElement = parisElement.querySelector(".date");
   let parisTimeElement = parisElement.querySelector(".time");
@@ -32,7 +38,7 @@ function updateCity(event) {
     <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
     <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format("A")}</small></div>
   </div>`;
-}
+  }
 
 updateTime();
 setInterval(updateTime, 1000);
