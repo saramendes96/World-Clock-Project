@@ -57,3 +57,9 @@ footer {
   font-size: 14px;
   color: rgba(0,0,0, 0.5);
 }
+
+.home-link {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
