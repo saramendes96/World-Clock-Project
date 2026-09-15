@@ -40,8 +40,10 @@ font-weight: bold;
 select {
   display: block;
   width: 100%;
+  padding: 10px;
   font-size: 18px;
   border-radius: 10px;
+  border: 1px solid #ddd;
 }
 
 h1 {
